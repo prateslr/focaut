@@ -1,3 +1,3 @@
 # focaut
 
-## https://pratestech.github.io/focaut/index.html 
+## https://focaut.vercel.app
