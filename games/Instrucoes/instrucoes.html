@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo das Instruções</title>
+    <style>
+        .button { margin: 10px; padding: 10px; }
+        #drawingCanvas { border: 1px solid #000; margin-top: 20px; }
+        #instructionDisplay { margin-bottom: 20px; font-size: 18px; }
+        #feedback { margin-top: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Siga as Instruções</h1>
+    <div id="instructionDisplay"></div>
+    
+    <div id="taskArea">
+        <div id="drawingPhase" style="display:none;">
+            <p>Desenhe algo no canvas abaixo:</p>
+            <canvas id="drawingCanvas" width="300" height="200"></canvas>
+        </div>
+        
+        <div id="typingPhase" style="display:none;">
+            <p>Digite uma frase que transmita uma emoção:</p>
+            <input type="text" id="typingInput" placeholder="Digite sua frase aqui">
+        </div>
+    </div>
+
+    <button id="nextButton" class="button">Próxima Tarefa</button>
+    <div id="feedback"></div>
+
+    <script src="instrucoes.js"></script>
+</body>
+</html>

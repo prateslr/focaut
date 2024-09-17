@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexões Sociais - Jogo de Interações</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Conexões Sociais</h1>
+
+    <div id="game-container">
+      <div id="cenario">
+        <h2 id="cenario-nome">Escolha um cenário:</h2>
+        <button onclick="startGame('escola')">Escola</button>
+        <button onclick="startGame('festa')">Festa</button>
+      </div>
+      <div id="desafio-container">
+        <h2 id="desafio-titulo"></h2>
+        <p id="desafio-descricao"></p>
+        <input type="text" id="resposta" placeholder="Sua resposta...">
+        <button onclick="submitResponse()">Enviar Resposta</button>
+      </div>
+      <div id="resultado-container" style="display: none;">
+        <h2>Resultado</h2>
+        <p id="resultado"></p>
+      </div>
+    </div>
+     
+    <script src="script.js"></script>
+</body>
+</html>
