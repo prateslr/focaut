@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/jogos.css">
     <link rel="stylesheet" href="assets/css/global.css">
 
     <!--links externos-->
@@ -19,83 +19,101 @@
     
     <title>Focaut</title>
 </head>
-<style>
+    <style>
 
-    /* Menu */
+        /* Menu */
 
-    @font-face {
-        font-family: 'menuFont';
-        src: url('./assets/font/Baloo/Baloo2-Bold.ttf');
-    }
+        @font-face {
+            font-family: 'menuFont';
+            src: url('./assets/font/Baloo/Baloo2-Bold.ttf');
+        }
 
-    .nav-list li a{
-        font-family: menuFont;
-    }
+        .nav-list li a{
+            font-family: menuFont;
+        }
 
-    /* Contato */
+        /* Contato */
 
-    @font-face {
-        font-family: 'cttFont';
-        src: url('./assets/font/Nunito/Nunito-VariableFont_wght.ttf');
-    }  
+        @font-face {
+            font-family: 'cttFont';
+            src: url('./assets/font/Nunito/Nunito-VariableFont_wght.ttf');
+        }  
 
-    .login-button button a{
-        font-family: cttFont;
-    }
+        .login-button button a{
+            font-family: cttFont;
+        }
 
-    /* Menu */
+        /* Menu */
 
-    @font-face {
-        font-family: 'menuFont';
-        src: url('./assets/font/Baloo/Baloo2-Bold.ttf');
-    }
+        @font-face {
+            font-family: 'menuFont';
+            src: url('./assets/font/Baloo/Baloo2-Bold.ttf');
+        }
 
-    .container-extras h1{
-        font-family: menuFont;
-    }
-</style>
+        .container-extras h1{
+            font-family: menuFont;
+        }
+    </style>
 <body>
-<header id="header" class="header">
-   <nav class="nav-bar">
-        <div class="logo">
-            <a href="index.html" alt="logo Focaut"><h1>Peças que Encaixam</h1></a>
-        </div>
+    <header id="header" class="header">
+    <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html" alt="logo Focaut"><h1>Peças que Encaixam</h1></a>
+            </div>
 
-        <div class="nav-list">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" id="home-header" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="index.html#about" id="about-header" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="index.html#extras" id="causes-header" class="nav-link">Blog</a></li>
+                </ul>
+
+                <div class="login-button">
+                    <button><a href="jogos.html">Jogos</a></button>
+                </div>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img id="icon" src="assets/img/svg/menu-svgrepo-com.svg" alt="menu hamburguer"></button>
+            </div>
+        </nav>
+        
+        <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="index.html" id="home-header" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="index.html#about" id="about-header" class="nav-link">Sobre</a></li>
-                <li class="nav-item"><a href="index.html#extras" id="causes-header" class="nav-link">Blog</a></li>
+                <li class="nav-item-mobile"><a href="#about" id="about-header" class="nav-link-mobile">Sobre</a></li>
+                <li class="nav-item-mobile"><a href="#extras" id="causes-header" class="nav-link-mobile">Causa</a></li>
             </ul>
-
             <div class="login-button">
-                <button><a href="jogos.html">Jogos</a></button>
+                <button><a href="#">Jogos</a></button>
             </div>
         </div>
+    </header>
 
-        <div class="mobile-menu-icon">
-            <button onclick="menuShow()"><img id="icon" src="assets/img/svg/menu-svgrepo-com.svg" alt="menu hamburguer"></button>
-        </div>
-    </nav>
-    
-    <div class="mobile-menu">
-        <ul>
-            <li class="nav-item-mobile"><a href="#about" id="about-header" class="nav-link-mobile">Sobre</a></li>
-            <li class="nav-item-mobile"><a href="#extras" id="causes-header" class="nav-link-mobile">Causa</a></li>
-        </ul>
-        <div class="login-button">
-            <button><a href="#">Jogos</a></button>
-        </div>
+    <div class="info-jogo">
+        <h1>O que são?</h1>
+        <p>
+            São jogos elaborados para treinar e aprimorar as capacidades da criança autista como a comunicação, 
+            interação social, forma de compreender e elaborar respostas de acordo com as regras sociais, 
+            processamento sensorial dentre outras que são afetadas pelo TEA.
+        </p>
     </div>
-</header>
-<body>
-    <h1>Catálogo de Jogos</h1>
-    <p>Seja bem vindo(a) ao catálogo de jogos, procure o jogo que quiser e começe a jogar!</p>
-    <div class="integrante">
-        <img src="https://via.placeholder.com/120" alt="Integrante 1">
-        <h3>Kaike Simplicio</h3>
-        <p>Função: Desenvolvedor</p>
-        <p>Descrição: Especialista em backend e banco de dados.</p>
+
+    <div class="grid">
+        <div class="card">
+            <div class="img">
+                <img class="game-img" src="https://static1.purepeople.com.br/people/4/25/24/@/4200539-cristiano-ronaldo-200x200-1.jpg" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img class="game-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ__gG02QTQ267Wv_krCys-0wr3B6ACYtKGGg&s" alt="">
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img class="game-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ__gG02QTQ267Wv_krCys-0wr3B6ACYtKGGg&s" alt="">
+            </div>
+        </div>
     </div>
 </body>
 </html>

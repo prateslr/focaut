@@ -161,12 +161,14 @@ a {
 .login-button button {
   border: none;
   width: 130px;
+  cursor: pointer;
   height: 50px;
   padding: 10px;
   border-radius: 50px;
   background: url('https://www.autismoemdia.com.br/wp-content/themes/autismoemdia/img/perfis.svg') center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all .5s
 }
 
 .login-button button a {
@@ -179,7 +181,6 @@ a {
 
 .login-button button:hover {
   box-shadow: 0 0 15px rgba(65, 164, 249, 1);
-  transition: all .5s
 }
 
 .mobile-menu-icon {

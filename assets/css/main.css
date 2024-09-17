@@ -155,7 +155,7 @@
 }
 
 .img-sobre {
-    width: 650px;
+    width: 470px;
     animation: float 5s ease-in-out infinite;
 }
 
@@ -170,12 +170,12 @@
 
 .container-about p {
     text-indent: 20px;
-    font-size: 20px;
+    font-size: 18px;
 
     padding-top: 26px;
     padding-left: 40px;
     padding-right: 40px;
-    width: 700px;
+    width: 900px;
 }
 
 .what {
