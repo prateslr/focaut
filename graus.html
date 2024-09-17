@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/graus.css">
+  <link rel="stylesheet" href="assets/css/global.css">
  
   <!--links externos-->
-  <link rel="stylesheet" href="assets/css/graus.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -19,7 +20,7 @@
   <title>Causas</title>
 
 </head>
-    <style>
+  <style>
         /* Menu */
         @font-face {
           font-family: 'menuFont';
@@ -39,44 +40,44 @@
         .login-button button a{
           font-family: cttFont;
         }
-    </style>
+  </style>
 <body>
-    <header id="header" class="header">
-      <nav class="nav-bar">
-        <div class="logo">
-          <a href="index.html"><h1>focaut.</h1></a>
-        </div>
+  <header id="header" class="header">
+    <nav class="nav-bar">
+      <div class="logo">
+        <a href="index.html" alt="logo Focaut"><h1>Peças que Encaixam</h1></a>
+      </div>
 
-        <div class="nav-list">
-          <ul>
-            <li class="nav-item"><a href="index.html" id="home-header" class="nav-link">Início</a></li>
-            <li class="nav-item"><a href="index.html#about" id="about-header" class="nav-link">Sobre</a></li>
-            <li class="nav-item"><a href="index.html#extras" id="causes-header" class="nav-link">Blog</a></li>
-          </ul>
-
-          <div class="login-button">
-            <button><a href="#">Relatos</a></button>
-          </div>
-        </div>
-
-        <div class="mobile-menu-icon">
-          <button onclick="menuShow()"><i id="icon" class="fa-solid fa-ellipsis"></i></button>
-        </div>
-      </nav>
-      
-      <div class="mobile-menu">
+      <div class="nav-list">
         <ul>
-          <li class="nav-item-mobile"><a href="#about" id="about-header" class="nav-link-mobile">Sobre</a></li>
-          <li class="nav-item-mobile"><a href="#extras" id="causes-header" class="nav-link-mobile">Causa</a></li>
+          <li class="nav-item"><a href="index.html" id="home-header" class="nav-link">Início</a></li>
+          <li class="nav-item"><a href="index.html#about" id="about-header" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="index.html#extras" id="causes-header" class="nav-link">Blog</a></li>
         </ul>
+
         <div class="login-button">
-          <button><a href="#">Relatos</a></button>
+          <button><a href="jogos.html">Jogos</a></button>
         </div>
       </div>
-    </header><!-- end header -->
 
-    <div class="container">
-      <div class="intro">
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img id="icon" src="assets/img/svg/menu-svgrepo-com.svg" alt="menu hamburguer"></button>
+      </div>
+    </nav>
+    
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item-mobile"><a href="#about" id="about-header" class="nav-link-mobile">Sobre</a></li>
+        <li class="nav-item-mobile"><a href="#extras" id="causes-header" class="nav-link-mobile">Causa</a></li>
+      </ul>
+      <div class="login-button">
+        <button><a href="#">Jogos</a></button>
+      </div>
+    </div>
+  </header><!-- end header -->
+
+  <div class="container">
+    <div class="intro">
         <h1>Graus do Autismo</h1>
         <p>
           No Brasil, a classificação dos diferentes graus de autismo pode ser complexa, mas é importante compreender 
@@ -90,9 +91,9 @@
           intelectual e linguagem, sendo que a maioria dos indivíduos apresenta deficiências mentais leves a 
           moderadas, com dificuldades linguísticas associadas.
         </p>
-      </div>
+    </div>
   
-      <div class="arg1">
+    <div class="arg1">
             <h3>Nível 3: severo (necessitam de maior suporte/apoio)</h3>
             <p>
               Diz respeito àqueles que apresentam um déficit considerado grave nas habilidades de 
@@ -101,17 +102,17 @@
               reduzida. Também possuem um perfil inflexível de comportamento, tendo dificuldade 
               de lidar com mudanças. Tendem ao isolamento social, se não estimulados.
             </p>
-      </div>
+    </div>
   
-      <div class="arg2">
+    <div class="arg2">
             <h3>Nível 2: moderado (necessitam de suporte)</h3>
             <p>
               Semelhante às características descritas no nível 3, mas com menor intensidade no que 
               cabe aos transtornos de comunicação e deficiência de linguagem.
             </p>
-      </div>
+    </div>
 
-      <div class="arg3">
+    <div class="arg3">
             <h3>Nível 1: leve (necessita de pouco suporte)</h3>
             <p>
               Com suporte, pode ter dificuldade para se comunicar, mas não é um limitante para interações sociais. 
@@ -129,9 +130,9 @@
               nível.
             </p>
 
-      </div>
+    </div>
 
-      <div class="arg4">
+    <div class="arg4">
             <h3>O que é a classificação CID-10:</h3>
             <p>
               O sistema de saúde brasileiro utiliza como base para categorizar doenças a Classificação Estatística 
@@ -148,9 +149,9 @@
                 <li>o transtorno geral do desenvolvimento não especificado (F84-9).</li>
               </ul>
             </p>
-      </div>
+    </div>
 
-      <div class="arg5">
+    <div class="arg5">
             <h3>Entendendos cada um deles</h3>
             <p>
               Síndrome de Asperger –  a deficiência encontra-se nas interações sociais e no uso funcional da 
@@ -175,84 +176,64 @@
               dos transtornos do espectro do autismo, uma vez que tem características singulares dos pontos de vista 
               clínico, genético e comportamental.
             </p>
-      </div>
+    </div>
+  </div><!-- end container -->
 
-    </div><!-- end container -->
+  <footer>
+    <div id="footer_content">
+        <div class="about-footer">
+            <h2 style="color: #fff;margin-bottom: 10px;">About Us</h2>
+            <p>
+                Somos um projeto com o objetivo de apoiar crianças autistas através de jogos, 
+                melhorando a concentração, a interação social e o raciocínio.
+            </p>
+            <div id="footer_contacts">
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>      
+                    <a href="#" class="footer-link" id="email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>      
+                </div>
+            </div> 
+        </div> 
 
-    <footer>
-      <div id="footer_content">
-          <div id="footer_contacts">
-              <div id="footer_social_media">
-                  <a href="#" class="footer-link" id="instagram">
-                      <i class="fa-brands fa-instagram"></i>
-                  </a>
-                  <a href="" class="footer-link" id="twitter">
-                      <i class="fa-brands fa-x-twitter"></i>
-                  </a>
-                  <a href="#" class="footer-link" id="youtube">
-                      <i class="fa-brands fa-youtube"></i>
-                  </a>      
-              </div>
-              <a href="#" class="email">
-                  focaut@gmail.com
-              </a>
-          </div>
-          
-          <ul class="footer-list">
-              <li>
-                  <h3>Blog</h3>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">Causes</a>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">Levels</a>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">Treatment</a>
-              </li>
-          </ul>
+        <ul class="footer-list">
+            <li>
+                <h3>Blog</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Causas</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Graus</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Tratamentos</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Jogos</a>
+            </li>
+        </ul>
 
-          <ul class="footer-list">
-              <li>
-                  <h3>Products</h3>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">App</a>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">Desktop</a>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">Cloud</a>
-              </li>
-          </ul>
+        <div class="lion">
+            <img src="assets/img/png/lion.png" alt="">
+        </div>               
+    </div>
 
-          <div id="footer_subcribe">
+    <div id="footer_copyright">   
+        Desenvolvido por Focaut.
+    </div>
+  </footer><!--end footer-->
 
-              <h3>Subscribe</h3>
-
-              <p>
-                  Enter your Email to get notified about
-                  our news solutions
-              </p>
-
-              <div id="input_group">
-                  <input type="email" id="email">
-                  <button>
-                      <i class="fa-regular fa-envelope"></i>
-                  </button>
-              </div>
-          </div>  
-      </div>
-
-      <div id="footer_copyright">
-          &#169
-          2024 all rights reserved  | Desenvolvido por Focaut.
-      </div>
-    </footer><!--end footer--> 
-
-    <section id="Vlibras">
+  <section id="Vlibras">
         <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
@@ -263,6 +244,6 @@
         <script>
             new window.VLibras.Widget('https://vlibras.gov.br/app');
         </script>
-    </section><!--e nd vlibras-->
+  </section><!--end vlibras-->
 </body>
 </html>

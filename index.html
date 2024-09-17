@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/global.css">
 
     <!--links externos-->
-    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -55,9 +56,9 @@
     </style>
 <body>
     <header id="header" class="header">
-        <nav class="nav-bar">
+       <nav class="nav-bar">
             <div class="logo">
-                <a href="index.html" alt="logo Focaut"><h1>focaut.</h1></a>
+                <a href="index.html" alt="logo Focaut"><h1>pqe.</h1></a>
             </div>
 
             <div class="nav-list">
@@ -68,12 +69,12 @@
                 </ul>
 
                 <div class="login-button">
-                    <button><a href="#">Relatos</a></button>
+                    <button><a href="jogos.html">Jogos</a></button>
                 </div>
             </div>
 
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img id="icon" src="assets/img/menu-svgrepo-com.svg" alt="menu hamburguer"></button>
+                <button onclick="menuShow()"><img id="icon" src="assets/img/svg/menu-svgrepo-com.svg" alt="menu hamburguer"></button>
             </div>
         </nav>
         
@@ -83,7 +84,7 @@
                 <li class="nav-item-mobile"><a href="#extras" id="causes-header" class="nav-link-mobile">Causa</a></li>
             </ul>
             <div class="login-button">
-                <button><a href="#">Relatos</a></button>
+                <button><a href="#">Jogos</a></button>
             </div>
         </div>
     </header><!-- end header -->
@@ -91,27 +92,16 @@
     <section id="hero" class="hero">
         <div class="container-hero">
             <div class="hero-text">
-                <h1 style="margin-bottom: 10px;">Focaut</h1>
+                <h1 style="margin-bottom: 10px;">Peças que Encaixam</h1>
                 <p>
-                    O Focaut é um projeto voltado para pessoas autistas, nosso compromisso é trazer informações 
+                    O PEças que Encaixam é um projeto voltado para pessoas autistas, nosso compromisso é trazer informações 
                     reais e confiáveis ​​e torná-las acessíveis a pessoas com pouco conhecimento sobre o mundo do TEA.
                 </p>
-                <ul class="btn-list">
-                    <li>
-                      <a href="#" class="btn-download" aria-label="Download from app store">
-                        <img src="assets/img/app-store.png" width="185" height="69" alt="app store" class="img">
-                      </a>
-                    </li>
-      
-                    <li>
-                      <a href="#" class="btn-download" aria-label="Download from play store">
-                        <img src="assets/img/play-store.png" width="185" height="69" alt="play store" class="img">
-                      </a>
-                    </li>
-                </ul>
+                <div class="download">
+                    <button><a href="JogodasSombras.exe">Baixar</a></button>
+                </div>
             </div>
         </div>
-
     </section><!--end hero-->
 
     <section id="about" class="about">
@@ -128,17 +118,17 @@
                         <br><span style="color: red;text-decoration: underline;cursor: pointer;">Não possui cura apenas Tratamento</span>, o tratamento adequado para o TEA envolve psicológos, terapeutas e em alguns casos até medicamentos.
                     </p>
                 </div>
-                <img class="img-sobre" src="assets/img/png1.png" alt="imagem criança brincando com bloquinhos">
+                <img class="img-sobre" src="assets/img/png/png1.png" alt="imagem criança brincando com bloquinhos">
             </div>
         </div>
     </section><!--end about-->
 
     <section id="extras" class="extras">
         <div class="line1" id="line1">
-            <img class="blue" src="assets/img/linhaBlue.png" alt="">
+            <img class="blue" src="assets/img/png/linhaBlue.png" alt="">
         </div>
         <div class="puzzle" id="puzzle">
-            <img class="qbr-kbc" src="assets/img/puzzle.png" alt="">
+            <img class="qbr-kbc" src="assets/img/png/puzzle.png" alt="">
         </div>
         <div class="container-extras">
             <h3>Blog</h3>
@@ -169,7 +159,7 @@
                         </div>
                 </div>
                 <div class="card">
-                        <img src="assets/img/medicos.jpg">
+                        <img src="assets/img/jpg/medicos.jpg">
                         <div>
                           <h1>Meios de Tratamento</h1>
                           <p>
@@ -183,7 +173,43 @@
                 </div>
             </div>
         </div>
-    </section><!--end causes-->
+    </section><!--end extras-->
+
+    <section class="integrantes-secao">
+        <h2>Conheça o Nosso Time</h2>
+        <div class="integrantes-container">
+            <div class="integrante">
+                <img src="https://via.placeholder.com/120" alt="Integrante 1">
+                <h3>Kaike Simplicio</h3>
+                <p>Função: Desenvolvedor</p>
+                <p>Descrição: Especialista em backend e banco de dados.</p>
+            </div>
+            <div class="integrante">
+                <img src="https://via.placeholder.com/120" alt="Integrante 2">
+                <h3>Laura Oliveira</h3>
+                <p>Função: Designer</p>
+                <p>Descrição: Focado em design gráfico e interfaces interativas.</p>
+            </div>
+            <div class="integrante">
+                <img src="https://via.placeholder.com/120" alt="Integrante 3">
+                <h3>Lucas Prates</h3>
+                <p>Função: Gerente de Projeto</p>
+                <p>Descrição: Coordena projetos e garante o cumprimento de prazos.</p>
+            </div>
+            <div class="integrante">
+                <img src="https://via.placeholder.com/120" alt="Integrante 3">
+                <h3>Rafaela Alves</h3>
+                <p>Função: Gerente de Projeto</p>
+                <p>Descrição: Coordena projetos e garante o cumprimento de prazos.</p>
+            </div>
+            <div class="integrante">
+                <img src="https://via.placeholder.com/120" alt="Integrante 3">
+                <h3>Sarah Cristina</h3>
+                <p>Função: Gerente de Projeto</p>
+                <p>Descrição: Coordena projetos e garante o cumprimento de prazos.</p>
+            </div>
+        </div>
+    </section><!--end persons-->
 
     <footer>
         <div id="footer_content">
@@ -230,14 +256,14 @@
             </ul>
 
             <div class="lion">
-                <img src="assets/img/lion.png" alt="">
+                <img src="assets/img/png/lion.png" alt="">
             </div>               
         </div>
 
         <div id="footer_copyright">   
             Desenvolvido por Focaut.
         </div>
-    </footer><!--end footer--> 
+    </footer><!--end footer-->
 
     <section id="Vlibras">
         <div vw class="enabled">
@@ -250,6 +276,6 @@
         <script>
             new window.VLibras.Widget('https://vlibras.gov.br/app');
         </script>
-    </section><!--e nd vlibras-->
+    </section><!--end vlibras-->
 </body>
 </html>

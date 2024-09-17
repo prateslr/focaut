@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/causas.css">
+  <link rel="stylesheet" href="assets/css/global.css">
  
   <!--links externos-->
-  <link rel="stylesheet" href="assets/css/causas.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -19,32 +20,32 @@
   <title>Causas</title>
 
 </head>
-    <style>
-        /* Menu */
-        @font-face {
-          font-family: 'menuFont';
-          src: url('./assets/font/Baloo/Baloo2-Bold.ttf');
-        }
+  <style>
+    /* menu */
+    @font-face {
+      font-family: 'menuFont';
+      src: url('./assets/font/Baloo/Baloo2-Bold.ttf');
+    }
 
-        .nav-list li a{
-          font-family: menuFont;
-        }
+    .nav-list li a{
+      font-family: menuFont;
+    }
 
-        /* Contato */
-        @font-face {
-          font-family: 'cttFont';
-          src: url('./assets/font/Nunito/Nunito-VariableFont_wght.ttf');
-        }  
+    /* jogos */
+    @font-face {
+      font-family: 'cttFont';
+      src: url('./assets/font/Nunito/Nunito-VariableFont_wght.ttf');
+    }  
 
-        .login-button button a{
-          font-family: cttFont;
-        }
-    </style>
+    .login-button button a{
+      font-family: cttFont;
+    }
+  </style>
 <body>
-    <header id="header" class="header">
-      <nav class="nav-bar">
+  <header id="header" class="header">
+    <nav class="nav-bar">
         <div class="logo">
-          <a href="index.html"><h1>focaut.</h1></a>
+            <a href="index.html" alt="logo Focaut"><h1>Peças que Encaixam</h1></a>
         </div>
 
         <div class="nav-list">
@@ -55,27 +56,27 @@
           </ul>
 
           <div class="login-button">
-            <button><a href="#">Relatos</a></button>
+            <button><a href="jogos.html">Jogos</a></button>
           </div>
         </div>
 
         <div class="mobile-menu-icon">
-          <button onclick="menuShow()"><i id="icon" class="fa-solid fa-ellipsis"></i></button>
+            <button onclick="menuShow()"><img id="icon" src="assets/img/svg/menu-svgrepo-com.svg" alt="menu hamburguer"></button>
         </div>
-      </nav>
-      
-      <div class="mobile-menu">
-          <ul>
-              <li class="nav-item-mobile"><a href="#about" id="about-header" class="nav-link-mobile">Sobre</a></li>
-              <li class="nav-item-mobile"><a href="#extras" id="causes-header" class="nav-link-mobile">Causa</a></li>
-          </ul>
-          <div class="login-button">
-              <button><a href="#">Relatos</a></button>
-          </div>
+    </nav>
+    
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item-mobile"><a href="index.html#about" id="about-header" class="nav-link-mobile">Sobre</a></li>
+        <li class="nav-item-mobile"><a href="#extras" id="causes-header" class="nav-link-mobile">Causa</a></li>
+      </ul>
+      <div class="login-button">
+        <button><a href="#">Jogos</a></button>
       </div>
-    </header><!-- end header -->
+    </div>
+  </header><!-- end header -->
 
-    <div class="container">
+  <div class="container">
       <div class="intro">
         <h1>Então, qual é a causa do autismo?</h1>
         <p>
@@ -157,92 +158,73 @@
           respostas e entendimento acerca das causas do autismo.
         </p>
       </div>
-    </div><!-- end container -->
+  </div><!-- end container -->
 
-    <footer>
-      <div id="footer_content">
-          <div id="footer_contacts">
-              <div id="footer_social_media">
-                  <a href="#" class="footer-link" id="instagram">
-                      <i class="fa-brands fa-instagram"></i>
-                  </a>
-                  <a href="" class="footer-link" id="twitter">
-                      <i class="fa-brands fa-x-twitter"></i>
-                  </a>
-                  <a href="#" class="footer-link" id="youtube">
-                      <i class="fa-brands fa-youtube"></i>
-                  </a>      
-              </div>
-              <a href="#" class="email">
-                  focaut@gmail.com
-              </a>
+  <footer>
+    <div id="footer_content">
+      <div class="about-footer">
+        <h2 style="color: #fff;margin-bottom: 10px;">About Us</h2>
+        <p>
+          Somos um projeto com o objetivo de apoiar crianças autistas através de jogos, 
+          melhorando a concentração, a interação social e o raciocínio.
+        </p>
+        <div id="footer_contacts">
+          <div id="footer_social_media">
+            <a href="#" class="footer-link" id="instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="" class="footer-link" id="facebook">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="footer-link" id="whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>      
+            <a href="#" class="footer-link" id="email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>      
           </div>
-          
-          <ul class="footer-list">
-              <li>
-                  <h3>Blog</h3>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">Causes</a>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">Levels</a>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">Treatment</a>
-              </li>
-          </ul>
+        </div> 
+      </div> 
 
-          <ul class="footer-list">
-              <li>
-                  <h3>Products</h3>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">App</a>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">Desktop</a>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">Cloud</a>
-              </li>
-          </ul>
+      <ul class="footer-list">
+        <li>
+            <h3>Blog</h3>
+        </li>
+        <li>
+              <a href="#" class="footer-link">Causas</a>
+        </li>
+        <li>
+              <a href="#" class="footer-link">Graus</a>
+        </li>
+        <li>
+              <a href="#" class="footer-link">Tratamentos</a>
+        </li>
+        <li>
+              <a href="#" class="footer-link">Jogos</a>
+        </li>
+      </ul>
 
-          <div id="footer_subcribe">
+      <div class="lion">
+        <img src="assets/img/png/lion.png" alt="">
+      </div>               
+    </div>
 
-              <h3>Subscribe</h3>
+    <div id="footer_copyright">   
+      Desenvolvido por Focaut.
+    </div>
+  </footer><!--end footer-->
 
-              <p>
-                  Enter your Email to get notified about
-                  our news solutions
-              </p>
-
-              <div id="input_group">
-                  <input type="email" id="email">
-                  <button>
-                      <i class="fa-regular fa-envelope"></i>
-                  </button>
-              </div>
-          </div>  
+  <section id="Vlibras">
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
       </div>
-
-      <div id="footer_copyright">
-          &#169
-          2024 all rights reserved  | Desenvolvido por Focaut.
       </div>
-    </footer><!--end footer--> 
-
-    <section id="Vlibras">
-        <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-            <div class="vw-plugin-top-wrapper"></div>
-        </div>
-        </div>
-        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-        <script>
-            new window.VLibras.Widget('https://vlibras.gov.br/app');
-        </script>
-    </section><!--e nd vlibras-->
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+  </section><!--e nd vlibras-->
 </body>
 </html>
